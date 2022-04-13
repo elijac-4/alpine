@@ -1,0 +1,5 @@
+FROM alpine
+RUN apt-get update -y
+COPY . /app
+
+CMD [ "bash" ]
